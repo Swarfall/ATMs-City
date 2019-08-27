@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		620C9D02EEF1999254582D35 /* Pods_City_ATMs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A91A19B525704FF7075B20 /* Pods_City_ATMs.framework */; };
+		840A54EA230B14D5007C8E46 /* ATMsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A54E9230B14D5007C8E46 /* ATMsViewController.swift */; };
+		840A54EC230B1B75007C8E46 /* InternetConnecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A54EB230B1B75007C8E46 /* InternetConnecting.swift */; };
+		840A54F0230B1C5A007C8E46 /* ATMModelMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A54EF230B1C5A007C8E46 /* ATMModelMappable.swift */; };
+		840A54F3230B2531007C8E46 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A54F2230B2531007C8E46 /* AlertExtension.swift */; };
+		840A54F9230B2C2A007C8E46 /* AlamofireURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A54F8230B2C2A007C8E46 /* AlamofireURLRequest.swift */; };
+		840A54FC230BD09C007C8E46 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A54FB230BD09C007C8E46 /* FavoritesViewController.swift */; };
+		840A5501230BDB87007C8E46 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A54FF230BDB87007C8E46 /* FavoriteCell.swift */; };
+		840A5502230BDB87007C8E46 /* FavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840A5500230BDB87007C8E46 /* FavoriteCell.xib */; };
+		840A5504230D3CEF007C8E46 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A5503230D3CEF007C8E46 /* DetailViewController.swift */; };
+		840A5506230D6A4B007C8E46 /* ViewExtentension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A5505230D6A4B007C8E46 /* ViewExtentension.swift */; };
+		841791F7230AE22E0080919B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841791F6230AE22E0080919B /* AppDelegate.swift */; };
+		841791F9230AE22E0080919B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841791F8230AE22E0080919B /* SearchViewController.swift */; };
+		841791FC230AE22E0080919B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841791FA230AE22E0080919B /* Main.storyboard */; };
+		841791FF230AE22E0080919B /* City_ATMs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841791FD230AE22E0080919B /* City_ATMs.xcdatamodeld */; };
+		84179201230AE2300080919B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84179200230AE2300080919B /* Assets.xcassets */; };
+		84179204230AE2300080919B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84179202230AE2300080919B /* LaunchScreen.storyboard */; };
+		8417920E230AEA750080919B /* ATMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417920D230AEA750080919B /* ATMModel.swift */; };
+		84179212230AF16C0080919B /* ATMsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84179210230AF16C0080919B /* ATMsCell.swift */; };
+		84179213230AF16C0080919B /* ATMsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84179211230AF16C0080919B /* ATMsCell.xib */; };
+		84CE87A9230DCF0200CA7E49 /* ATMModelRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE87A8230DCF0200CA7E49 /* ATMModelRealm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A91A19B525704FF7075B20 /* Pods_City_ATMs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_City_ATMs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		709AA087077AAF9FF5D8D399 /* Pods-City ATMs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City ATMs.debug.xcconfig"; path = "Target Support Files/Pods-City ATMs/Pods-City ATMs.debug.xcconfig"; sourceTree = "<group>"; };
+		840A54E9230B14D5007C8E46 /* ATMsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMsViewController.swift; sourceTree = "<group>"; };
+		840A54EB230B1B75007C8E46 /* InternetConnecting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnecting.swift; sourceTree = "<group>"; };
+		840A54EF230B1C5A007C8E46 /* ATMModelMappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMModelMappable.swift; sourceTree = "<group>"; };
+		840A54F2230B2531007C8E46 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		840A54F8230B2C2A007C8E46 /* AlamofireURLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireURLRequest.swift; sourceTree = "<group>"; };
+		840A54FB230BD09C007C8E46 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		840A54FF230BDB87007C8E46 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		840A5500230BDB87007C8E46 /* FavoriteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteCell.xib; sourceTree = "<group>"; };
+		840A5503230D3CEF007C8E46 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		840A5505230D6A4B007C8E46 /* ViewExtentension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtentension.swift; sourceTree = "<group>"; };
+		841791F3230AE22E0080919B /* City ATMs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City ATMs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841791F6230AE22E0080919B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		841791F8230AE22E0080919B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		841791FB230AE22E0080919B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841791FE230AE22E0080919B /* City_ATMs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = City_ATMs.xcdatamodel; sourceTree = "<group>"; };
+		84179200230AE2300080919B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84179203230AE2300080919B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84179205230AE2300080919B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8417920D230AEA750080919B /* ATMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMModel.swift; sourceTree = "<group>"; };
+		84179210230AF16C0080919B /* ATMsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMsCell.swift; sourceTree = "<group>"; };
+		84179211230AF16C0080919B /* ATMsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ATMsCell.xib; sourceTree = "<group>"; };
+		84CE87A8230DCF0200CA7E49 /* ATMModelRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMModelRealm.swift; sourceTree = "<group>"; };
+		9797DD87B32A735CDD7E3DF7 /* Pods-City ATMs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City ATMs.release.xcconfig"; path = "Target Support Files/Pods-City ATMs/Pods-City ATMs.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841791F0230AE22E0080919B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620C9D02EEF1999254582D35 /* Pods_City_ATMs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6571737C50A5EC570B738F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A91A19B525704FF7075B20 /* Pods_City_ATMs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840A54F1230B2505007C8E46 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				840A54F2230B2531007C8E46 /* AlertExtension.swift */,
+				840A5505230D6A4B007C8E46 /* ViewExtentension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		841791EA230AE22E0080919B = {
+			isa = PBXGroup;
+			children = (
+				841791F5230AE22E0080919B /* City ATMs */,
+				841791F4230AE22E0080919B /* Products */,
+				B6521D5E739A1C546A86B71C /* Pods */,
+				6571737C50A5EC570B738F37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		841791F4230AE22E0080919B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841791F3230AE22E0080919B /* City ATMs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841791F5230AE22E0080919B /* City ATMs */ = {
+			isa = PBXGroup;
+			children = (
+				840A54F1230B2505007C8E46 /* Extensions */,
+				8417920F230AF13D0080919B /* Cell */,
+				8417920C230AE92E0080919B /* Models */,
+				8417920B230AE8380080919B /* Controllers */,
+				841791F6230AE22E0080919B /* AppDelegate.swift */,
+				841791FA230AE22E0080919B /* Main.storyboard */,
+				84179200230AE2300080919B /* Assets.xcassets */,
+				84179202230AE2300080919B /* LaunchScreen.storyboard */,
+				84179205230AE2300080919B /* Info.plist */,
+				841791FD230AE22E0080919B /* City_ATMs.xcdatamodeld */,
+			);
+			path = "City ATMs";
+			sourceTree = "<group>";
+		};
+		8417920B230AE8380080919B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				841791F8230AE22E0080919B /* SearchViewController.swift */,
+				840A54E9230B14D5007C8E46 /* ATMsViewController.swift */,
+				840A54FB230BD09C007C8E46 /* FavoritesViewController.swift */,
+				840A5503230D3CEF007C8E46 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8417920C230AE92E0080919B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				840A54EB230B1B75007C8E46 /* InternetConnecting.swift */,
+				8417920D230AEA750080919B /* ATMModel.swift */,
+				840A54EF230B1C5A007C8E46 /* ATMModelMappable.swift */,
+				840A54F8230B2C2A007C8E46 /* AlamofireURLRequest.swift */,
+				84CE87A8230DCF0200CA7E49 /* ATMModelRealm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8417920F230AF13D0080919B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84179210230AF16C0080919B /* ATMsCell.swift */,
+				84179211230AF16C0080919B /* ATMsCell.xib */,
+				840A54FF230BDB87007C8E46 /* FavoriteCell.swift */,
+				840A5500230BDB87007C8E46 /* FavoriteCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B6521D5E739A1C546A86B71C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				709AA087077AAF9FF5D8D399 /* Pods-City ATMs.debug.xcconfig */,
+				9797DD87B32A735CDD7E3DF7 /* Pods-City ATMs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841791F2230AE22E0080919B /* City ATMs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84179208230AE2300080919B /* Build configuration list for PBXNativeTarget "City ATMs" */;
+			buildPhases = (
+				85052C4CB494342156F7334F /* [CP] Check Pods Manifest.lock */,
+				841791EF230AE22E0080919B /* Sources */,
+				841791F0230AE22E0080919B /* Frameworks */,
+				841791F1230AE22E0080919B /* Resources */,
+				ACAD1D354728757EC668244A /* [CP] Embed Pods Frameworks */,
+				8B0FD266AB6D0BFB71E87793 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "City ATMs";
+			productName = "City ATMs";
+			productReference = 841791F3230AE22E0080919B /* City ATMs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841791EB230AE22E0080919B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Viacheslav Savitsky";
+				TargetAttributes = {
+					841791F2230AE22E0080919B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 841791EE230AE22E0080919B /* Build configuration list for PBXProject "City ATMs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841791EA230AE22E0080919B;
+			productRefGroup = 841791F4230AE22E0080919B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841791F2230AE22E0080919B /* City ATMs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841791F1230AE22E0080919B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84179204230AE2300080919B /* LaunchScreen.storyboard in Resources */,
+				84179201230AE2300080919B /* Assets.xcassets in Resources */,
+				84179213230AF16C0080919B /* ATMsCell.xib in Resources */,
+				841791FC230AE22E0080919B /* Main.storyboard in Resources */,
+				840A5502230BDB87007C8E46 /* FavoriteCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85052C4CB494342156F7334F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-City ATMs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0FD266AB6D0BFB71E87793 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City ATMs/Pods-City ATMs-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City ATMs/Pods-City ATMs-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-City ATMs/Pods-City ATMs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAD1D354728757EC668244A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City ATMs/Pods-City ATMs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City ATMs/Pods-City ATMs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-City ATMs/Pods-City ATMs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841791EF230AE22E0080919B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840A5504230D3CEF007C8E46 /* DetailViewController.swift in Sources */,
+				840A5501230BDB87007C8E46 /* FavoriteCell.swift in Sources */,
+				840A54F3230B2531007C8E46 /* AlertExtension.swift in Sources */,
+				840A54EA230B14D5007C8E46 /* ATMsViewController.swift in Sources */,
+				840A54F9230B2C2A007C8E46 /* AlamofireURLRequest.swift in Sources */,
+				8417920E230AEA750080919B /* ATMModel.swift in Sources */,
+				840A54F0230B1C5A007C8E46 /* ATMModelMappable.swift in Sources */,
+				841791F9230AE22E0080919B /* SearchViewController.swift in Sources */,
+				840A54EC230B1B75007C8E46 /* InternetConnecting.swift in Sources */,
+				84179212230AF16C0080919B /* ATMsCell.swift in Sources */,
+				841791F7230AE22E0080919B /* AppDelegate.swift in Sources */,
+				840A54FC230BD09C007C8E46 /* FavoritesViewController.swift in Sources */,
+				84CE87A9230DCF0200CA7E49 /* ATMModelRealm.swift in Sources */,
+				840A5506230D6A4B007C8E46 /* ViewExtentension.swift in Sources */,
+				841791FF230AE22E0080919B /* City_ATMs.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		841791FA230AE22E0080919B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841791FB230AE22E0080919B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84179202230AE2300080919B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84179203230AE2300080919B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84179206230AE2300080919B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84179207230AE2300080919B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84179209230AE2300080919B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709AA087077AAF9FF5D8D399 /* Pods-City ATMs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9X3NJANTM;
+				INFOPLIST_FILE = "City ATMs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Viacheslav-Savitsky.City-ATMs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8417920A230AE2300080919B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9797DD87B32A735CDD7E3DF7 /* Pods-City ATMs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9X3NJANTM;
+				INFOPLIST_FILE = "City ATMs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Viacheslav-Savitsky.City-ATMs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841791EE230AE22E0080919B /* Build configuration list for PBXProject "City ATMs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84179206230AE2300080919B /* Debug */,
+				84179207230AE2300080919B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84179208230AE2300080919B /* Build configuration list for PBXNativeTarget "City ATMs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84179209230AE2300080919B /* Debug */,
+				8417920A230AE2300080919B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		841791FD230AE22E0080919B /* City_ATMs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				841791FE230AE22E0080919B /* City_ATMs.xcdatamodel */,
+			);
+			currentVersion = 841791FE230AE22E0080919B /* City_ATMs.xcdatamodel */;
+			path = City_ATMs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 841791EB230AE22E0080919B /* Project object */;
+}
